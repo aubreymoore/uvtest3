@@ -21,7 +21,7 @@ uv init --python 3.10 code
 cd code
 uv venv
 source .venv/bin/activate
-uv add ipykernel notebook
+uv pip install ipykernel notebook
 
 ```
 Now, add ```code/.venv/``` to ```.gitignore```.
